@@ -1,6 +1,6 @@
 import Lill from 'lill'
 
-const isFunction = func => typeof func === 'function'
+const isFunction = (func) => typeof func === 'function'
 
 function NoMe(method) {
 	function NoMeWrapped() {
